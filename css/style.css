@@ -1,0 +1,116 @@
+/*-------Login-------*/
+#login,
+#signup {
+  background-color: #1A272E;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.navbar-toggler i {
+  color: white !important;
+  font-size: 25px;
+  padding: 0;
+}
+
+#formLogin,
+#formSignup {
+  margin-top: 50px;
+  width: 65%;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+
+}
+
+#formLogin  h2,
+#formSignup h2 {
+  color: #17A2B8;
+  padding: 20px 0;
+  font-family:  sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  text-align: center;
+}
+
+#loginInput,
+#signupInput {
+  margin: auto;
+  width: 80%;
+}
+
+#loginInput input,
+#signupInput input {
+  background: transparent;
+  color: #ffffff;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #17A2B8;
+}
+
+#loginInput h6,
+#signupInput h6 {
+  color: #ffffff;
+  text-align: center;
+  font-family:  sans-serif;
+}
+
+#loginInput h6 a,
+#signupInput h6 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#loginInput h6 a:hover,
+#signupInput h6 a:hover {
+  text-decoration: underline;
+}
+
+#alertRequierd,
+#alertCoreect,
+#alertRequierdData,
+#alertSuccess,
+#alertEmail {
+  font-family:  sans-serif;
+  font-size: 20px;
+}
+
+/*------ Home Page--------*/
+.navbar {
+  background-color: #1A272E;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.navbar ul li a {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: sans-serif;
+}
+
+#home {
+  background-color: #1A272E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello {
+  width: 65%;
+  padding: 40px;
+  background-color: #1A272E;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.hello h1,
+#userNAme {
+  color: #17A2B8;
+  font-size: 42px;
+  font-weight: 500;
+  font-family: sans-serif;
+
+}
